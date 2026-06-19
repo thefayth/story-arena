@@ -10,7 +10,7 @@ Status: public export candidate.
 - WordPress page draft: ready
 - Visual asset audit: ready
 - Hero/banner/social/icon assets: ready
-- GitHub repository push: pending GitHub CLI auth or repository-create connector access
+- GitHub repository push: complete
 - Live WordPress deploy verification: pending independent deploy smoke check
 
 ## Current Private Runtime
@@ -19,7 +19,8 @@ The canonical implementation remains the private WordPress plugin that serves `/
 
 ## Known Constraints
 
-- The local folder is not a git repository.
-- GitHub CLI currently reports the saved `thefayth` token as invalid.
-- GitHub connector returned `404 Not Found` for `thefayth/story-arena`, so the chosen slug appears available or at least not accessible as an existing public repository.
+- The root project folder is not a git repository.
+- The public export folder is its own git repository.
+- The Codex process inherited stale proxy variables pointing at `127.0.0.1:9`; GitHub commands work after clearing `HTTP_PROXY`, `HTTPS_PROXY`, `ALL_PROXY`, and lowercase variants inside the command.
+- GitHub repository is live at `https://github.com/thefayth/story-arena`.
 - Server credentials and deployment systems are intentionally excluded from this public export.

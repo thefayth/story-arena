@@ -7,7 +7,7 @@
 - Chosen repository slug: `story-arena`
 - Intended owner: `thefayth`
 - Intended repository URL: `https://github.com/thefayth/story-arena`
-- Version status: first public export candidate; GitHub connector returned `404 Not Found` for `thefayth/story-arena`, so this slug appears available or at least not currently accessible as an existing public repo
+- Version status: first public export published
 
 ## Files Created
 
@@ -67,7 +67,7 @@ Generated public export rasters:
 
 ## Workflow Status
 
-Public export is ready for local review and push once GitHub CLI authentication is fixed or a GitHub repository creation tool is available.
+Public export is published to GitHub. The remote repository was created with `gh repo create`, and the file tree was uploaded through the GitHub API after stale proxy variables blocked normal Git transport.
 
 ## WordPress Status
 
@@ -79,4 +79,4 @@ Default status: `READY AFTER FAITH REVIEW`.
 
 ## Recommended Next Action
 
-Fix local GitHub CLI auth, then push this folder as `thefayth/story-arena`. After that, deploy the WordPress plugin package separately through the existing backup-first production workflow.
+Review the live GitHub surface, then deploy the WordPress plugin package separately through the existing backup-first production workflow.

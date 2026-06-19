@@ -11,11 +11,11 @@
 - [x] Include image audit
 - [x] Include hero image
 - [x] Include selected visuals
-- [ ] Confirm GitHub CLI auth
+- [x] Confirm GitHub CLI auth after clearing stale proxy variables
 - [x] Confirm repository slug availability or absence with GitHub connector
 - [x] Initialize git inside `_github_public_export`
-- [ ] Create GitHub repository
-- [ ] Push initial commit
+- [x] Create GitHub repository
+- [x] Push public export files
 
 ## Live WordPress
 
