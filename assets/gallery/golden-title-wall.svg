@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 760" role="img" aria-labelledby="title desc">
+  <title id="title">Floating golden title-card wall</title>
+  <desc id="desc">An IMDb-inspired wall of private and approved script title cards, with creators reviewing metadata and AI notes.</desc>
+  <defs>
+    <linearGradient id="paper" x1="0" x2="1" y1="0" y2="1"><stop offset="0" stop-color="#fffdf4"/><stop offset="1" stop-color="#ffe8a3"/></linearGradient>
+    <linearGradient id="gold" x1="0" x2="1"><stop offset="0" stop-color="#d99216"/><stop offset=".5" stop-color="#ffe178"/><stop offset="1" stop-color="#9a5e06"/></linearGradient>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%"><feDropShadow dx="0" dy="18" stdDeviation="18" flood-color="#61410b" flood-opacity=".18"/></filter>
+  </defs>
+  <rect width="1200" height="760" rx="54" fill="#fff7df"/>
+  <path d="M0 0h1200v240C954 205 762 214 610 260 424 315 254 318 0 260z" fill="#11100d"/>
+  <circle cx="1000" cy="130" r="120" fill="#f5bd35" opacity=".55"/>
+  <g transform="translate(124 128)" filter="url(#shadow)">
+    <g fill="url(#paper)" stroke="#11100d" stroke-width="5">
+      <rect x="0" y="0" width="210" height="300" rx="22"/>
+      <rect x="244" y="52" width="210" height="300" rx="22"/>
+      <rect x="488" y="0" width="210" height="300" rx="22"/>
+      <rect x="732" y="52" width="210" height="300" rx="22"/>
+    </g>
+    <g fill="#11100d">
+      <rect x="30" y="42" width="150" height="20" rx="10"/><rect x="30" y="84" width="106" height="14" rx="7"/><rect x="30" y="118" width="130" height="14" rx="7"/>
+      <rect x="274" y="94" width="150" height="20" rx="10"/><rect x="274" y="136" width="106" height="14" rx="7"/><rect x="274" y="170" width="130" height="14" rx="7"/>
+      <rect x="518" y="42" width="150" height="20" rx="10"/><rect x="518" y="84" width="106" height="14" rx="7"/><rect x="518" y="118" width="130" height="14" rx="7"/>
+      <rect x="762" y="94" width="150" height="20" rx="10"/><rect x="762" y="136" width="106" height="14" rx="7"/><rect x="762" y="170" width="130" height="14" rx="7"/>
+    </g>
+    <g fill="url(#gold)">
+      <rect x="30" y="226" width="72" height="28" rx="14"/><rect x="274" y="278" width="72" height="28" rx="14"/>
+      <rect x="518" y="226" width="72" height="28" rx="14"/><rect x="762" y="278" width="72" height="28" rx="14"/>
+    </g>
+  </g>
+  <g transform="translate(224 510)" filter="url(#shadow)">
+    <circle cx="70" cy="68" r="54" fill="#7c4227"/><path d="M18 68C18 15 70-9 111 20c24 17 32 42 22 72-39-13-70-14-115-24z" fill="#140b08"/>
+    <path d="M6 184c13-49 34-80 64-80s54 31 67 80z" fill="#11100d"/>
+    <circle cx="360" cy="66" r="52" fill="#b86f42"/><path d="M312 54c12-51 75-70 106-23 15 23 10 47-7 68-31-14-64-25-99-45z" fill="#2d160e"/>
+    <path d="M294 184c14-49 35-80 66-80s53 31 67 80z" fill="#fff8e3" stroke="#11100d" stroke-width="5"/>
+    <rect x="520" y="28" width="320" height="132" rx="28" fill="#11100d"/>
+    <path d="M555 68h244M555 105h171" stroke="#ffd86a" stroke-width="18" stroke-linecap="round"/>
+  </g>
+</svg>

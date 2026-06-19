@@ -1,0 +1,23 @@
+flowchart TB
+  subgraph Private
+    Drafts[Full scripts and uploads]
+    Prompts[Private prompts and AI context]
+    Admin[Admin and deployment systems]
+  end
+  subgraph Review
+    Sanitizer[Sanitization layer]
+    Owner[Owner approval]
+  end
+  subgraph Public
+    Summary[Approved summaries]
+    Title[Title pages]
+    Awards[Awards board]
+    GitHub[Protected GitHub surface]
+  end
+  Drafts --> Sanitizer
+  Prompts --> Sanitizer
+  Sanitizer --> Owner
+  Owner --> Summary
+  Summary --> Title
+  Title --> Awards
+  Awards --> GitHub

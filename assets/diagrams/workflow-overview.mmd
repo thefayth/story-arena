@@ -1,0 +1,12 @@
+flowchart LR
+  Writer[Writer] --> Vault[Private Vault]
+  Vault --> Genome[Sanitized Script Genome]
+  Genome --> Feedback[AI Feedback Panel]
+  Genome --> IP[IP Prep Center]
+  Feedback --> Review[Creator Review]
+  IP --> Review
+  Review --> Decision{Public Approval}
+  Decision -->|Private| Vault
+  Decision -->|Approved| Board[Public Title Board]
+  Board --> Awards[Monthly Awards]
+  Board --> Site[FaithCheltenham.com]

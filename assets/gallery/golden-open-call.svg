@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 760" role="img" aria-labelledby="title desc">
+  <title id="title">Approved public title board</title>
+  <desc id="desc">A bright public film database board with approved title cards, poster thumbnails, and creator-controlled release status.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" x2="1" y1="0" y2="1"><stop offset="0" stop-color="#fffdf4"/><stop offset=".62" stop-color="#ffe29a"/><stop offset="1" stop-color="#f2a51f"/></linearGradient>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%"><feDropShadow dx="0" dy="24" stdDeviation="24" flood-color="#5a3608" flood-opacity=".18"/></filter>
+  </defs>
+  <rect width="1200" height="760" rx="54" fill="url(#bg)"/>
+  <rect x="102" y="118" width="996" height="520" rx="44" fill="#11100d"/>
+  <g filter="url(#shadow)">
+    <rect x="154" y="174" width="230" height="354" rx="28" fill="#fff8df"/>
+    <rect x="420" y="174" width="230" height="354" rx="28" fill="#fff8df"/>
+    <rect x="686" y="174" width="230" height="354" rx="28" fill="#fff8df"/>
+    <rect x="952" y="174" width="92" height="354" rx="28" fill="#fff8df" opacity=".72"/>
+    <rect x="184" y="210" width="170" height="190" rx="22" fill="#f0b632"/>
+    <rect x="450" y="210" width="170" height="190" rx="22" fill="#11100d"/>
+    <rect x="716" y="210" width="170" height="190" rx="22" fill="#f5d06b"/>
+    <path d="M190 444h156M190 484h112M456 444h156M456 484h112M722 444h156M722 484h112" stroke="#11100d" stroke-width="16" stroke-linecap="round"/>
+    <circle cx="268" cy="306" r="58" fill="#7a4029"/><path d="M214 298c8-54 58-78 101-52 26 16 35 48 24 80-42-12-77-18-125-28z" fill="#160b07"/>
+    <circle cx="535" cy="306" r="58" fill="#b67145"/><path d="M484 294c12-51 69-68 104-29 19 21 18 46 0 74-35-18-67-32-104-45z" fill="#2b160d"/>
+    <circle cx="802" cy="306" r="58" fill="#6e3520"/><path d="M746 300c2-54 56-82 101-58 31 16 42 49 27 84-40-13-82-20-128-26z" fill="#120907"/>
+  </g>
+  <g fill="#ffd86a">
+    <rect x="174" y="568" width="168" height="20" rx="10"/>
+    <rect x="440" y="568" width="168" height="20" rx="10"/>
+    <rect x="706" y="568" width="168" height="20" rx="10"/>
+  </g>
+</svg>

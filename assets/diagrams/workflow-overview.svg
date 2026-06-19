@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="640" viewBox="0 0 1400 640" role="img" aria-labelledby="title desc">
+  <title id="title">Story Arena workflow overview</title>
+  <desc id="desc">Workflow from writer to private vault, sanitized script genome, AI feedback, IP prep, creator review, and approved public title board.</desc>
+  <rect width="1400" height="640" fill="#fff8e8"/>
+  <rect x="52" y="54" width="1296" height="532" fill="#fffdf4" stroke="#141210" stroke-width="4"/>
+  <text x="86" y="112" font-family="Arial Black, Arial, sans-serif" font-size="38" fill="#141210">Story Arena Workflow</text>
+  <text x="88" y="150" font-family="Arial, sans-serif" font-size="20" fill="#5c4b96">Public surface. Private engine. Receipts always.</text>
+  <g font-family="Arial, sans-serif" font-size="18" fill="#141210" text-anchor="middle">
+    <rect x="92" y="250" width="150" height="92" fill="#fad668" stroke="#141210" stroke-width="3"/>
+    <text x="167" y="290">Writer</text><text x="167" y="316">starts here</text>
+    <rect x="300" y="250" width="178" height="92" fill="#141210" stroke="#d6a334" stroke-width="5"/>
+    <text x="389" y="290" fill="#fffdf4">Private</text><text x="389" y="316" fill="#fffdf4">Vault</text>
+    <rect x="538" y="250" width="202" height="92" fill="#fffdf4" stroke="#141210" stroke-width="3"/>
+    <text x="639" y="290">Sanitized</text><text x="639" y="316">Script Genome</text>
+    <rect x="810" y="185" width="176" height="88" fill="#ab4858" stroke="#141210" stroke-width="3"/>
+    <text x="898" y="225" fill="#fffdf4">AI Notes</text><text x="898" y="250" fill="#fffdf4">Panel</text>
+    <rect x="810" y="320" width="176" height="88" fill="#2a8784" stroke="#141210" stroke-width="3"/>
+    <text x="898" y="360" fill="#fffdf4">IP Prep</text><text x="898" y="385" fill="#fffdf4">Center</text>
+    <rect x="1050" y="250" width="178" height="92" fill="#fffdf4" stroke="#141210" stroke-width="3"/>
+    <text x="1139" y="290">Creator</text><text x="1139" y="316">Review</text>
+    <polygon points="1262,296 1318,240 1374,296 1318,352" fill="#d6a334" stroke="#141210" stroke-width="3"/>
+    <text x="1318" y="290">Public</text><text x="1318" y="316">OK?</text>
+  </g>
+  <g stroke="#141210" stroke-width="4" fill="none" marker-end="url(#arrow)">
+    <path d="M242 296 H300"/>
+    <path d="M478 296 H538"/>
+    <path d="M740 296 C770 296 778 229 810 229"/>
+    <path d="M740 296 C770 296 778 364 810 364"/>
+    <path d="M986 229 C1010 229 1018 296 1050 296"/>
+    <path d="M986 364 C1010 364 1018 296 1050 296"/>
+    <path d="M1228 296 H1262"/>
+  </g>
+  <defs>
+    <marker id="arrow" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto" markerUnits="strokeWidth">
+      <path d="M0,0 L0,6 L9,3 z" fill="#141210"/>
+    </marker>
+  </defs>
+</svg>

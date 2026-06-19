@@ -1,0 +1,73 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 760" role="img" aria-labelledby="title desc">
+  <title id="title">Golden pop-cinema writer ensemble</title>
+  <desc id="desc">A golden stage ensemble led by Black women screenwriters, directors, judges, and technical builders around a private writer vault.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0" stop-color="#fff7dc"/>
+      <stop offset=".42" stop-color="#ffe49b"/>
+      <stop offset="1" stop-color="#f7a93a"/>
+    </linearGradient>
+    <radialGradient id="spot" cx=".48" cy=".22" r=".72">
+      <stop offset="0" stop-color="#fffdf2"/>
+      <stop offset=".48" stop-color="#ffd978" stop-opacity=".88"/>
+      <stop offset="1" stop-color="#15100b"/>
+    </radialGradient>
+    <linearGradient id="chrome" x1="0" x2="1">
+      <stop offset="0" stop-color="#14120f"/>
+      <stop offset=".5" stop-color="#3a2a14"/>
+      <stop offset="1" stop-color="#0b0a08"/>
+    </linearGradient>
+    <filter id="soft" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="24" stdDeviation="26" flood-color="#53340a" flood-opacity=".23"/>
+    </filter>
+  </defs>
+  <rect width="1200" height="760" rx="54" fill="url(#bg)"/>
+  <path d="M0 622C158 571 303 559 438 586c146 29 263 96 420 91 120-4 223-49 342-96v179H0z" fill="#fff8df" opacity=".85"/>
+  <circle cx="600" cy="332" r="318" fill="url(#spot)" opacity=".88"/>
+  <g opacity=".42" stroke="#2a2014" stroke-width="2">
+    <path d="M102 118h996M137 170h927M189 226h823" opacity=".25"/>
+    <path d="M600 35v665M475 62l-76 610M723 62l76 610" opacity=".18"/>
+  </g>
+  <g filter="url(#soft)">
+    <rect x="382" y="172" width="436" height="368" rx="34" fill="#fffdf2" stroke="#261e12" stroke-width="7"/>
+    <rect x="416" y="209" width="368" height="64" rx="14" fill="url(#chrome)"/>
+    <g fill="#f4bc37">
+      <circle cx="455" cy="241" r="11"/><circle cx="503" cy="241" r="11"/><circle cx="551" cy="241" r="11"/>
+      <circle cx="599" cy="241" r="11"/><circle cx="647" cy="241" r="11"/><circle cx="695" cy="241" r="11"/><circle cx="743" cy="241" r="11"/>
+    </g>
+    <rect x="448" y="310" width="304" height="186" rx="22" fill="#11100d"/>
+    <path d="M484 357h232M484 402h174M484 447h205" stroke="#ffd66b" stroke-width="16" stroke-linecap="round"/>
+  </g>
+  <g filter="url(#soft)">
+    <g transform="translate(205 304)">
+      <path d="M113 211c-68 0-104-42-104-100C9 49 55 0 114 0s105 49 105 111c0 58-38 100-106 100z" fill="#21120c"/>
+      <circle cx="114" cy="86" r="56" fill="#8a4c2b"/>
+      <path d="M53 105c8-67 47-98 90-89 40 9 63 49 51 91-33-11-66-13-141-2z" fill="#120b08"/>
+      <path d="M55 238c15-66 52-98 111-98s100 32 113 98z" fill="#fff6dc" stroke="#1a130d" stroke-width="6"/>
+      <path d="M91 154l30 37 33-37" fill="none" stroke="#f0ae26" stroke-width="11" stroke-linecap="round"/>
+      <rect x="44" y="221" width="142" height="40" rx="20" fill="#11100d"/>
+      <rect x="68" y="233" width="94" height="11" rx="5" fill="#ffd66b"/>
+    </g>
+    <g transform="translate(480 286)">
+      <path d="M40 88c0-58 48-88 110-88s110 30 110 88c0 57-45 104-110 104S40 145 40 88z" fill="#23110b"/>
+      <circle cx="150" cy="92" r="61" fill="#6f351e"/>
+      <path d="M83 82c18-59 97-92 145-29 2 25-9 47-31 66-35-27-72-34-114-37z" fill="#0d0907"/>
+      <path d="M18 280c20-77 68-119 132-119s113 42 132 119z" fill="#11100d"/>
+      <path d="M64 265h172" stroke="#f3c441" stroke-width="20" stroke-linecap="round"/>
+      <circle cx="239" cy="198" r="27" fill="#f6c74c" stroke="#11100d" stroke-width="6"/>
+      <path d="M236 198h-42" stroke="#11100d" stroke-width="8" stroke-linecap="round"/>
+    </g>
+    <g transform="translate(790 322)">
+      <circle cx="93" cy="75" r="60" fill="#c07645"/>
+      <path d="M30 83C26 25 76-14 127 5c37 14 55 53 42 95-49-9-90-11-139-17z" fill="#2d160e"/>
+      <path d="M0 245c17-71 50-107 94-107s80 36 98 107z" fill="#fff8e8" stroke="#11100d" stroke-width="6"/>
+      <path d="M45 169h99" stroke="#11100d" stroke-width="9" stroke-linecap="round"/>
+      <path d="M68 199h53" stroke="#e0a828" stroke-width="12" stroke-linecap="round"/>
+    </g>
+  </g>
+  <g fill="#11100d" opacity=".9">
+    <rect x="92" y="594" width="182" height="28" rx="14"/>
+    <rect x="928" y="594" width="180" height="28" rx="14"/>
+    <rect x="514" y="650" width="172" height="28" rx="14"/>
+  </g>
+</svg>
